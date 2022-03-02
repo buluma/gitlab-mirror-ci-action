@@ -31,9 +31,15 @@ jobs:
 ```
 
 ## Setup
+
 Be sure to define the `GITLAB_PASSWORD` secret in `https://github.com/<namespace>/<repository>/settings/secrets`  
 
-Before setup a token to use as `GITLAB_PASSWORD` here https://gitlab.com/profile/personal_access_tokens  
+Setup a token to use as `GITLAB_PASSWORD` here https://gitlab.com/profile/personal_access_tokens  
 
 The token must have `read_api`, `read_repository` & `write_repository` permissions in GitLab.  
+
 For granular permissions create seperate users and tokens in GitLab with restricted access.  
+
+### Credits
+
+Thanks to [SvanBoxel](https://github.com/marketplace/actions/mirror-to-gitlab-and-run-gitlab-ci) for the inspiration
