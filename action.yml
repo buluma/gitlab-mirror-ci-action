@@ -1,0 +1,15 @@
+---
+name: Buluma - GitLab Mirror Action
+description: Mirror to GitLab and trigger GitLab CI
+author: Michael Buluma <me@buluma.me.ke>
+runs:
+  using: "docker"
+  image: Dockerfile
+branding:
+  icon: "git-merge"
+  color: "black"
+inputs:
+  REPO:
+    description: "The path to the repository where the action will be used, e.g. 'buluma/my-repo' (automatically set)"
+    required: true
+    default: "${{ github.repository }}"
