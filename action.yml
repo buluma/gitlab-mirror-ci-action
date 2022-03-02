@@ -6,8 +6,8 @@ runs:
   using: "docker"
   image: Dockerfile
 branding:
-  icon: "check-square"
-  color: "red"
+  icon: "git-merge"
+  color: "black"
 inputs:
   REPO:
     description: "The path to the repository where the action will be used, e.g. 'buluma/my-repo' (automatically set)"
