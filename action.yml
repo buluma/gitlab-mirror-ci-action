@@ -1,5 +1,5 @@
 ---
-name: Buluma - Gitlab Mirror Action
+name: Buluma - GitLab Mirror Action
 description: Mirror to GitLab and trigger GitLab CI
 author: Michael Buluma <me@buluma.me.ke>
 runs:

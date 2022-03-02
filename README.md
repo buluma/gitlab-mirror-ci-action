@@ -42,4 +42,4 @@ For granular permissions create seperate users and tokens in GitLab with restric
 
 ## Credits
 
-Thanks to [SvanBoxel](https://github.com/marketplace/actions/mirror-to-gitlab-and-run-gitlab-ci) for the inspiration
+Thanks to [SvanBoxel](https://github.com/marketplace/actions/mirror-to-gitlab-and-run-gitlab-ci) for the inspiration.
