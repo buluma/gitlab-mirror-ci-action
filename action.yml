@@ -16,16 +16,16 @@ inputs:
   GITLAB_USERNAME:
     description: "The GITLAB username for authentication"
     required: true
-    default: "${{ secrets.GITLAB_PASSWORD }}"
+    default: "${{ GITLAB_PASSWORD }}"
   GITLAB_PASSWORD:
     description: "The GITLAB access token to allow us to push"
     required: true
-    default: "${{ secrets.GITLAB_PASSWORD }}"
+    default: "${{ GITLAB_PASSWORD }}"
   GITLAB_PROJECT_ID:
     description: "The GITLAB <GitLab project ID> destination"
     required: true
-    default: "${{ secrets.GITLAB_PASSWORD }}"
+    default: "${{ GITLAB_PASSWORD }}"
   GITHUB_TOKEN:
     description: "Personal GITHUB_TOKEN"
     required: true
-    default: "${{ secrets.GITHUB_TOKEN }}"
+    default: "${{ GITHUB_TOKEN }}"
