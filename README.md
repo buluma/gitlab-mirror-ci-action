@@ -40,6 +40,6 @@ The token must have `read_api`, `read_repository` & `write_repository` permissio
 
 For granular permissions create seperate users and tokens in GitLab with restricted access.  
 
-### Credits
+## Credits
 
 Thanks to [SvanBoxel](https://github.com/marketplace/actions/mirror-to-gitlab-and-run-gitlab-ci) for the inspiration
