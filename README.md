@@ -1,4 +1,4 @@
-# Mirror to GitLab and trigger GitLab CI
+# Mirror to GitLab and trigger GitLab CI [![Yaml Lint](https://github.com/buluma/gitlab-mirror-ci-action/actions/workflows/yamllint.yml/badge.svg)](https://github.com/buluma/gitlab-mirror-ci-action/actions/workflows/yamllint.yml)
 
 A GitHub Action that mirrors all commits to GitLab, triggers GitLab CI, and returns the results back to GitHub. 
 
