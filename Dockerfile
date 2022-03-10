@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Automate mirroring of git commits to Git
 LABEL "com.github.actions.icon"="git-commit"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/bu;uma/gitlab-mirror-ci-action"
+LABEL "repository"="https://github.com/buluma/gitlab-mirror-ci-action"
 LABEL "homepage"="https://github.com/buluma/gitlab-mirror-ci-action"
 LABEL "maintainer"="Michael Buluma <me@buluma.me.ke>"
 
