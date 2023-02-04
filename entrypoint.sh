@@ -31,9 +31,18 @@ sh -c "git config --global core.askPass /cred-helper.sh"
 sh -c "git config --global credential.helper cache"
 sh -c "git remote add mirror $*"
 sh -c "echo pushing to $branch branch at $(git remote get-url --push mirror)"
-# sh -c "git push mirror $branch"
-# Force push
-sh -c "git push mirror $branch --force"
+if [ "${FORCE_PUSH:-}" = "true" ]
+then
+  sh -c "git push --force mirror $branch"
+else
+  sh -c "git push mirror $branch"
+fi
+
+if [ "${FOLLOW_TAGS:-}" = "true" ]
+then
+  sh -c "echo pushing with --tags"
+  sh -c "git push --tags mirror $branch"
+fi
 
 sleep $POLL_TIMEOUT
 
